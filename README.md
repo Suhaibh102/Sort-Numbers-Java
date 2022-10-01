@@ -1,1 +1,5 @@
 # Sort-Numbers-Java
+
+The code prompts the user for two separate lists of numbers, the code then receives the input from the user and counts the number of numbers in each list and also finds the common numbers among both lists. The code then prints “Enter list1: ” followed by the number of numbers in the list, then the numbers from the user's output. The code also prints the same for the second list of numbers followed by “ The common elements are ” and the common numbers between both lists.
+
+The major steps for solving the program are to first start by creating an array list using the code ArrayList<Integer> list=new ArrayList<Integer>() ;. Then we use the print function to prompt the user to enter the first set of numbers. Then we create a loop to ask for the next set of numbers (list 2). Once the user has entered list 2 the program is then prompted to loop continuously till it finds the common elements using a for-if format. Lastly the code prints the phrase “the common elements are:” followed by the common elements found.
